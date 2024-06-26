@@ -5,17 +5,18 @@ Since we are going to be an Apple Exclusive app, we will exclusively use Sign In
 ## Planning
 
 Features/Services:
-    - Users should not be able to see accounts they've blocked and users who have them blocked shouldn't be able to see them
-    - Authentication with Apple Sign-In JWT
-    - User Deactivation
-    - User Deletion
-    - Retrieval of User's Data when requested
-    - Banning Users
-    - Reporting of Users
-    - Suspension
-    - Notifications
-    - User Search by handle
-    - Background Checks and ID Verification
+
+- Users should not be able to see accounts they've blocked and users who have them blocked shouldn't be able to see them
+- Authentication with Apple Sign-In JWT
+- User Deactivation
+- User Deletion
+- Retrieval of User's Data when requested
+- Banning Users
+- Reporting of Users
+- Suspension
+- Notifications
+- User Search by handle
+- Background Checks and ID Verification
 
 Determine what can and cannot be done on the device with MongoDB Realm.
 We should strive to keep most data and compute local to the user's device.
