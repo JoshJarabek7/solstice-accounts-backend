@@ -23,3 +23,5 @@ Only try to collect the minimal amount of data required to make the application 
 Keep other backend services to a minimal in terms of their MongoDB classes.
 This will keep the bson ID for that user, which can be passed to the other services.
 Separate Account from Profile to keep PII to a minimum.
+
+Hopefully we might not even really need to build this ourselves by and instead use MongoDB functions.
